@@ -5,7 +5,9 @@
     "main": "build/server-app.js",
     "scripts": {
         "clean": "rm -rf build/",
-        "build": "tsc"
+        "build": "tsc",
+        "pretest": "tsc",
+        "test": "mocha \"build/*-test/**/*.js\""
     },
     "repository": {
         "type": "git",
@@ -16,5 +18,9 @@
     "bugs": {
         "url": "https://github.com/CraigJPerry/chat/issues"
     },
-    "homepage": "https://github.com/CraigJPerry/chat#readme"
+    "homepage": "https://github.com/CraigJPerry/chat#readme",
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "mocha": "^2.2.5"
+    }
 }
