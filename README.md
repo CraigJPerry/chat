@@ -1,2 +1,1 @@
-Kicing the tyres of some deployment pipeline tooling.
-
+Kicking the tyres of some deployment pipeline tooling.
