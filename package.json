@@ -1,20 +1,20 @@
 {
-  "name": "chat",
-  "version": "0.0.1",
-  "description": "Kicking the tyres on some deployment pipeline tools",
-  "main": "build/server-app.js",
-  "scripts": {
-      "clean": "rm -rf build/",
-      "build": "tsc"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CraigJPerry/chat.git"
-  },
-  "author": "Craig J Perry",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/CraigJPerry/chat/issues"
-  },
-  "homepage": "https://github.com/CraigJPerry/chat#readme"
+    "name": "chat",
+    "version": "0.0.1",
+    "description": "Kicking the tyres on some deployment pipeline tools",
+    "main": "build/server-app.js",
+    "scripts": {
+        "clean": "rm -rf build/",
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CraigJPerry/chat.git"
+    },
+    "author": "Craig J Perry",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/CraigJPerry/chat/issues"
+    },
+    "homepage": "https://github.com/CraigJPerry/chat#readme"
 }
