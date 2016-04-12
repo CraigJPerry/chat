@@ -15,3 +15,5 @@ Ensure you have the following software installed:
 
 * clean: npm run-script clean
 * build: npm run-script build
+* test: npm test
+* run: npm start
