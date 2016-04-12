@@ -3,3 +3,8 @@ dependencies:
         - npm install -g typescript
         - npm install -g typings
         - typings install --save
+
+test:
+    post:
+        - mkdir -p $CIRCLE_TEST_REPORTS/mocha/
+        - mv test-results.xml $CIRCLE_TEST_REPORTS/mocha/
