@@ -4,6 +4,8 @@
   "description": "Kicking the tyres on some deployment pipeline tools",
   "main": "build/server-app.js",
   "scripts": {
+      "clean": "rm -rf build/",
+      "build": "tsc"
   },
   "repository": {
     "type": "git",
