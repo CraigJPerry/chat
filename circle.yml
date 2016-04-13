@@ -8,3 +8,9 @@ test:
     post:
         - mkdir -p $CIRCLE_TEST_REPORTS/mocha/
         - mv test-results.xml $CIRCLE_TEST_REPORTS/mocha/
+
+deployment:
+  prod:
+    branch: master
+    heroku:
+      appname: foo-bar-123
