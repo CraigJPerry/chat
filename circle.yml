@@ -4,7 +4,12 @@ test:
         - mv test-results.xml $CIRCLE_TEST_REPORTS/mocha/
 
 deployment:
-  prod:
-    branch: heroku-onboarding
-    heroku:
-      appname: craigjperry-chat
+    prod:
+        tag: /release-.*/
+        heroku:
+            appname: craigjperry-chat
+
+    beta:
+        branch: master
+        heroku:
+            appname: craigjperry-chat-beta
