@@ -1,7 +1,3 @@
-dependencies:
-    pre:
-        - typings install --save
-
 test:
     post:
         - mkdir -p $CIRCLE_TEST_REPORTS/mocha/
