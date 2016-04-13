@@ -1,8 +1,9 @@
 {
     "name": "chat",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "Kicking the tyres on some deployment pipeline tools",
     "main": "build/server/server.js",
+    "private": true,
     "scripts": {
         "clean": "rm -rf build/",
         "build": "tsc",
