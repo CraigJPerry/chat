@@ -8,6 +8,7 @@
         "build": "tsc",
         "pretest": "tsc",
         "test": "mocha --reporter mocha-circleci-reporter \"build/*-test/**/*.js\"",
+        "postinstall": "typings install && tsc",
         "start": "node build/server/server.js"
     },
     "repository": {
@@ -26,6 +27,8 @@
         "mocha-circleci-reporter": "0.0.1"
     },
     "dependencies": {
-        "express": "^4.0.0"
+        "express": "^4.0.0",
+        "typescript": "^1.8.10",
+        "typings": "^0.7.12"
     }
 }
