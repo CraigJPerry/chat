@@ -27,3 +27,10 @@ they are automatically pushed to the beta app hosted on Heroku.
 
 Releases cut on github (i.e. tags on master named release-xxxxx) are tested by
 CircleCI then pushed automatically to the production app hosted on Heroku.
+
+## Versioning
+
+Use the [Semantic Versioning](http://semver.org/) scheme.
+
+Although the npm package is not published, the version number should be updated
+prior to tagging a release.
