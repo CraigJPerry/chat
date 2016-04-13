@@ -11,6 +11,6 @@ test:
 
 deployment:
   prod:
-    branch: master
+    branch: heroku-onboarding
     heroku:
-      appname: foo-bar-123
+      appname: craigjperry-chat
