@@ -10,6 +10,7 @@ Ensure you have the following software installed:
  * typescript compiler: `npm install -g typescript`
  * typescript definintions: `npm install -g typings`
  * Project dependencies: `npm install`
+* Heroku toolbelt
 
 ## Building
 
