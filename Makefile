@@ -17,6 +17,7 @@ $(server_bundle):
 
 clean:
 	rm -rf build
+	rm -f test-results.xml
 
 test:
 	tsc
