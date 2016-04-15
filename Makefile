@@ -6,7 +6,7 @@ mutual_source := $(wildcard src/mutual/*.html)
 mutual_output := build/mutual
 tests         := $(wildcard build/*-test/*.js)
 
-.PHONY: all clean test
+.PHONY: all clean test deps
 
 all: $(server_bundle)
 
@@ -22,3 +22,7 @@ clean:
 test:
 	tsc
 	mocha --reporter mocha-circleci-reporter $(tests)
+
+deps:
+	typings install
+	tsc
