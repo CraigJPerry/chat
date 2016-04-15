@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "test": "make test",
-    "postinstall": "make dep",
+    "postinstall": "make deps",
     "start": "node build/server/server.js"
   },
   "repository": {
